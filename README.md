@@ -7,7 +7,7 @@
 <div align="center">
   
 <!-- GitHub Profile Visit Counter -->
-<img src="https://komarev.com/ghpvc/?username=chalaniS&color=blue" alt="profile views" />  
+<img src="https://komarev.com/ghpvc/?username=GehanFonseka&color=blue" alt="profile views" />  
 </div>
 ---
 <table align="center">
@@ -70,4 +70,12 @@
   
   </td>
 </tr>
+
 </table>
+
+ <p align="center" >
+      <img
+          src="https://github-profile-trophy.vercel.app/?username=GehanFonseka"
+          alt="GehanFonseka"
+
+---
