@@ -1,4 +1,4 @@
-<p align="center" ><img  src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width = 100px></p>
+![Blue Modern Corporate Staff Profile LinkedIn Banner(2)](https://github.com/GehanFonseka/GehanFonseka/assets/172630251/d39e21ce-9173-414d-baef-54f78e67f96b)
 
 <h1 align="center">Hi 👋, I'm Gehan Fonseka</h1>
 <h3 align="center"> Passionate IT Student | Exploring the Boundless World of Technology </h3>
@@ -14,7 +14,7 @@
 <tr border="none">
 <td width="50%" align="left">
   
-- 🌱 I’m currently learning **MERN, Android**
+- 🌱 I’m currently learning **MERN, Python**
 
 - 🧑‍🎓 I’m an Undergraduate at **SLIIT**
 
