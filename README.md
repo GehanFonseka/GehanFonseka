@@ -9,12 +9,14 @@
 <!-- GitHub Profile Visit Counter -->
 <img src="https://komarev.com/ghpvc/?username=GehanFonseka&color=blue" alt="profile views" />  
 </div>
+
 ---
+
 <table align="center">
 <tr border="none">
 <td width="50%" align="left">
   
-- 🌱 I’m currently learning **MERN, Python**
+- 🌱 I’m currently learning **DevOps**
 
 - 🧑‍🎓 I’m an Undergraduate at **SLIIT**
 
@@ -41,7 +43,7 @@
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://GehanFonseka.github.io/" target="blank"><img align="center" src="https://img.icons8.com/ios-filled/256/internet.png" alt="GehanFonseka" height="30" width="40" /></a>
+<a href="https://gehanfonseka.netlify.app/" target="blank"><img align="center" src="https://img.icons8.com/ios-filled/256/internet.png" alt="GehanFonseka" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/gehan-fonseka-aa61a7288" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gehan-fonseka-aa61a7288" height="30" width="40" /></a>
 <a href="https://fb.com/gehan.fonseka" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="gehan.fonseka" height="30" width="40" /></a>
 <a href="https://instagram.com/gehan_fonseka_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="gehan_fonseka_" height="30" width="40" /></a>
