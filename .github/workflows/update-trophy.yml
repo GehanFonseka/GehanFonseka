@@ -1,0 +1,31 @@
+name: Update GitHub Trophies
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # once a day at midnight UTC
+  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+
+jobs:
+  update-trophy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate trophy.svg
+        uses: ryo-ma/github-profile-trophy@master
+        with:
+          username: GehanFonseka
+          output_path: ./trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          theme: onedark
+          row: 2
+          column: 4
+
+      - name: Commit trophy.svg
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: "trophy.svg"
+          commit_message: "chore: update GitHub trophies"
