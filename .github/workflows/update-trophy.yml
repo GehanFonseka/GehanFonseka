@@ -1,15 +1,21 @@
+
 name: Update GitHub Trophies
 
 on:
-  schedule:
-    - cron: "0 0 * * *"   # once a day at midnight UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+  push:
+    paths:
+      - "README.md"
+      - ".github/workflows/update-trophy.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-trophy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
