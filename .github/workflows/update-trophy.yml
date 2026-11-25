@@ -1,12 +1,12 @@
-
 name: Update GitHub Trophies
 
 on:
+  schedule:
+    - cron: "0 0 * * *"
   push:
     paths:
       - "README.md"
       - ".github/workflows/update-trophy.yml"
-
   workflow_dispatch:
 
 permissions:
@@ -27,8 +27,24 @@ jobs:
           output_path: ./trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: onedark
+          no-bg: true
+          no-frame: false
+          margin-w: 15
+          margin-h: 15
           row: 2
           column: 4
+
+      - name: Apply Midnight Navy & Cyan Theme to trophy.svg
+        run: |
+          sed -i 's/fill="#282c34"/fill="#0B1220"/g' trophy.svg
+          sed -i 's/stroke="#e1e4e8"/stroke="#1E293B" stroke-width="1.2"/g' trophy.svg
+          sed -i 's/rx="4.5"/rx="8"/g' trophy.svg
+          sed -i 's/fill="#e5c07b"/fill="#06B6D4"/g' trophy.svg
+          sed -i 's/font-size="10.5" fill="#e06c75"/font-size="10.5" fill="#F8FAFC"/g' trophy.svg
+          sed -i 's/font-size="10" fill="#e06c75"/font-size="10" fill="#94A3B8"/g' trophy.svg
+          sed -i 's/fill="#98c379"/fill="#0EA5E9" opacity="0.35"/g' trophy.svg
+          sed -i 's/stop-color="#56b6c2"/stop-color="#06B6D4"/g' trophy.svg
+          sed -i 's/stop-color="#c678dd"/stop-color="#2563EB"/g' trophy.svg
 
       - name: Commit trophy.svg
         uses: stefanzweifel/git-auto-commit-action@v5
